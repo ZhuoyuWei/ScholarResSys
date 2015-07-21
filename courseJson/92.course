@@ -1,0 +1,22 @@
+{"ItemName":"Making Better Group Decisions: Voting, Judgement Aggregation and Fair Division","Major":"Economics & Finance Mathematics Humanities  Computer Science: Artificial Intelligence ","LinkUrl":"https://www.coursera.org/course/votingfairdiv","Content":"<div>
+			<div>
+				<div>
+					<p>Much of our daily lives is spent taking part in various types of what we might call “political”
+procedures. Examples range from voting in a national election to deliberating with others
+in small committees. Many interesting philosophical and mathematical issues arise when
+we carefully examine our group decision-making processes. </p><p>There are two types of group
+decision making problems that we will discuss in this course. A <i>voting problem</i>: Suppose
+that a group of friends are deciding where to go for dinner. If everyone agrees on which
+restaurant is best, then it is obvious where to go. But, how should the friends decide where
+to go if they have different opinions about which restaurant is best? Can we always find a
+choice that is “fair” taking into account everyone’s opinions or must we choose one person
+from the group to act as a “dictator”? A <i>fair division problem</i>: Suppose that there is a cake and
+a group of hungry children. Naturally, you want to cut the cake and distribute the pieces
+to the children as fairly as possible. If the cake is homogeneous (e.g., a chocolate cake with
+vanilla icing evenly distributed), then it is easy to find a fair division: give each child a piece
+that is the same size. But, how do we find a “fair” division of the cake if it is heterogeneous
+(e.g., icing that is 1/3 chocolate, 1/3 vanilla and 1/3 strawberry) and the children each want
+different parts of the cake? </p>
+				</div>
+			</div>
+		</div>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/c9/68becd69bfac902edd2ea292619756/coursera_decisions.png","Short_des":"Learn about different  voting methods and fair division algorithms, and explore the problems that arise when a group of people need to make a decision.  ","AuthorList":[{"author":"Eric Pacuit"}]}

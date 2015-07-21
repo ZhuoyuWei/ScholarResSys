@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.po">
+	<class name="ScholarTweet" table="scholartweet">
+		<!-- 映射标识属性 -->
+		<id name="tweetId" column="tweetid"
+			type="int">
+			<!-- 指定主键生成器策略 -->
+			<generator class="identity"/>
+		</id>
+		<!-- 映射普通属性 -->
+		<many-to-one name="createby" lazy="false" cascade="all" class="ScholarUser" column="userid"/>
+		<many-to-one name="item" lazy="false" cascade="all" class="Item" column="itemid"/>
+		<property name="content" type="string" length="2000"/>
+		<property name="createTime" column="createtime" type="calendar" length="7"/>
+						
+								
+	</class>
+</hibernate-mapping>

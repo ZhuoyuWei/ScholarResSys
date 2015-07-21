@@ -1,0 +1,23 @@
+{"ItemName":"Bioelectricity: A Quantitative Approach","Major":"Biology & Life Sciences Physics ","LinkUrl":"https://www.coursera.org/course/bioelectricity","Content":"<p>In this class you will learn how to think about electrically active
+tissue in terms of individual mechanisms, and you will learn to analyze the
+mechanisms quantitatively as well as describe them qualitatively. &nbsp;The
+course uses many of the same examples used by Hodgkin and Huxley, who won the
+Nobel Prize for their experimental unraveling of the mechanisms of the nerve
+axon of the giant squid, and their creation of a mathematical model of
+membranes and propagation to understand its function. &nbsp;That work has been
+the foundational element of most subsequent understandings of electrically
+active tissue, whether in nerves, the brain or in muscle, including the heart. 
+</p>
+<p>
+In this course, topics include:
+</p><ol>
+<li>The electrical charging of active membranes from the creation and use of differences in ionic concentrations across the membrane.</li>
+<li>The stimulation of the membrane, both naturally and from engineered sources.</li>
+<li>The creation of action potentials by the membrane in response to stimulation.</li>
+<li>The chain reaction of membrane responses, with each small region or cell initiating an action potential in adjacent ones.</li>
+<li>The observation of associated electrical currents in terms of extracellular wave voltages they create, the basis of clinical measurements such as the electrocardiogram.</li>
+</ol>
+<p></p>
+<p>
+The course will at each step present equations and other quantitative reasoning so that you will be able to go beyond describing what happens qualitatively and be able to link together the phenomena in the mosaic in a quantitative fashion, which is essential to judging whether specific changes in inputs are important to the outcome. Through the use of quantitative analysis, you will learn that all the elements of the system are tied together and be able to link together and analyze the effects of one part on another.
+</p>","ImageUrl":"https://s3.amazonaws.com/coursera/topics/bioelectricity/large-icon.png","Short_des":"Nerves, the heart, and the brain are electrical. How do these things work? This course presents fundamental principles, described quantitatively.","AuthorList":[{"author":"Roger Barr"}]}

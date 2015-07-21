@@ -1,0 +1,13 @@
+{"ItemName":"Startup Engineering","Major":"Computer Science: Software Engineering Business & Management Statistics and Data Analysis ","LinkUrl":"https://www.coursera.org/course/startup","Content":"<b></b>
+<div><b></b>Spiritual sequel to Peter Thiel's <a href="http://blakemasters.tumblr.com/peter-thiels-cs183-startup">CS183</a> course
+    on startups. Bridges the gap between academic computer science and production
+    softwar<b></b>e engineering. Fast-paced introduction to key tools and techniques
+    (command line, dotfiles, text editor, distributed version control, debugging,
+    testing, documentation, reading code, deployments), featuring guest appearances
+    by senior engineers from successful startups and large-scale academic projects.
+    Over the course of the class, students will build a command line application,
+    expose it as a web service, and then link other students' applications
+    and services together to build an HTML5 mobile app. General principles
+    are illustrated through modern Javascript and the latest web technologies,
+    including Node, Backbone, Coffeescript, Bootstrap, Git, and Github.&nbsp;<b></b><b></b><b></b>
+</div>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/d6/b79772266def5c49c018552620b760/logo.png","Short_des":"Learn the engineering skills needed to build a technology startup from the ground up.","AuthorList":[{"author":"Balaji S. Srinivasan"},{"author":"Vijay S. Pande"}]}

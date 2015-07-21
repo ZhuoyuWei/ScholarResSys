@@ -1,0 +1,19 @@
+{"ItemName":"Einführung in Computer Vision","Major":"Computer Science: Artificial Intelligence ","LinkUrl":"https://www.coursera.org/course/compvision","Content":"<div>
+    <p><span>Räumliches Sehen stellt für die meisten Menschen eine Selbstverständlichkeit dar. Maschinen mit einem gleichwertigen Sehvermögen auszustatten, ist hingegen eine sehr komplizierte Angelegenheit. Seit den 1960-er Jahren hat sich dieser als <i>Computer Vision</i> bezeichnete Forschungsbereich kontinuierlich entwickelt und zahlreiche Forschungsergebnisse hervorgebracht. Viele Fragen haben jedoch noch nicht hinreichend beantwortet werden können und sind bis heute aktuell.</span>
+
+    </p>
+</div>
+<p>Dieser Kurs befasst sich mit einigen grundlegenden Algorithmen der Computer
+    Vision, führt das hierzu benötigte Fachvokabular ein und frischt die benötigten
+    mathematischen Grundlagen auf, wann immer sie benötigt werden. Beginnend
+    mit grundlegenden Methoden der Bildverarbeitung wie z.B. der Kantendetektion,
+    werden diese im Lauf des Kurses für umfassendere Aufgaben wie Merkmalsextraktion
+    und Korrespondenzschätzung angewendet.</p>
+<p>Diese Korrespondenzen können mit Wissen über die Darstellung von Bildern
+    am Computer und der Beschreibung von Objektbewegungen im Raum dann verwendet
+    werden, um die Epipolargeometrie eines Stereokamerasystems und somit die
+    2D-3D-Beziehung zwischen Bildern und der Szene zu beschreiben. Hierbei
+    wird der Unterschied zwischen unkalibriertem und kalibriertem Kamerasystem
+    erläutert, sowie auf das Konzept der Homographie eingegangen. Schließlich
+    ermöglicht das Zusammenspiel all dieser Aspekte die 3D-Rekonstruktion einer
+    Szene aus einem Stereokamerabildpaar.</p>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/37/dc9609e73affd2ed41611617dfe67d/Course_Logo_Computer_Vision.jpg","Short_des":"Dieser Kurs vermittelt einen Überblick über die Grundlagen des Maschinellen Sehens an Hand der Extraktion von 3D-Information aus dem Stereokamerabild einer Szene.","AuthorList":[{"author":"Martin Kleinsteuber"}]}

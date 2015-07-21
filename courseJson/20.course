@@ -1,0 +1,39 @@
+{"ItemName":"Mathematical Methods for Quantitative Finance","Major":"Economics & Finance Mathematics Business & Management ","LinkUrl":"https://www.coursera.org/course/mathematicalmethods","Content":"The Mathematical Methods for Quantitative Finance course reviews the mathematical methods fundamental for&nbsp;the study of quantitative and computational finance. The areas of focus include calculus and&nbsp;multivariable calculus, constrained and unconstrained
+optimization, and linear algebra.
+<br>
+
+<p>Topics covered include the following:
+</p>
+
+<ul>
+    <li>Functions and inverse functions</li>
+    <li>Limits, derivatives, partial derivatives, and chain rule
+    </li>
+    <li>Integrals and multiple integrals, changing the order of differentiation and integration</li>
+    <li>Taylor series approximations</li>
+    <li>Newton’s method</li>
+    <li>Lagrange multiplier method</li>
+    <li>Vector and matrix arithmetic, determinants, eigenvalue-eigenvector decomposition,&nbsp;singular value decomposition</li>
+    <li>Numerical methods for optimization
+        <br>
+    </li>
+</ul><b><u>Course goal</u>:</b><span><br>
+Upon completion of the course students will know the fundamental mathematical
+concepts&nbsp;needed to effectively study quantitative finance areas such as
+fixed income, options and&nbsp;derivatives, portfolio optimization,
+and&nbsp;quantitative risk management.</span><b><u><br><br>Course Objectives</u></b>:
+<br>
+<p>
+    Upon completion of the course students will:</p>
+
+<ol>
+    <li>Understand the concept of a limit, differentiation, and integration;</li>
+    <li>Be able to compute partial derivatives and multiple integrals;</li>
+    <li>Understand the utility of matrix decompositions;</li>
+    <li>Be able to use Lagrange multipliers to solve constrained optimization problems; and
+        <br>
+    </li>
+    <li>Apply the above methods to problems arising in finance.
+        <br>
+    </li>
+</ol>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/03/7a8bea5487c0296e61da3b557f41d1/CourseBannerImageOptionBlackGold.jpg","Short_des":"Mathematical Methods for Quantitative Finance covers topics from calculus and linear algebra that are fundamental for the study of mathematical finance. Students successfully completing this course will be mathematically well prepared to study quantitative finance at the graduate level.","AuthorList":[{"author":"Kjell Konis"}]}

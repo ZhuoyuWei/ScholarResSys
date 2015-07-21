@@ -1,0 +1,16 @@
+{"ItemName":"An Introduction to Interactive Programming in Python","Major":"Computer Science: Software Engineering ","LinkUrl":"https://www.coursera.org/course/interactivepython","Content":"<div>This course is designed to help students with very little or no computing
+    background learn the basics of building simple interactive applications.
+    &nbsp;Our language of choice, Python, is an easy-to learn, high-level computer
+    language that is used in many of the computational courses offered on Coursera.
+    To make learning Python easy, we have developed a new browser-based programming
+    environment that makes developing interactive applications in Python simple.
+    &nbsp;These applications will involve windows whose contents are graphical
+    and respond to buttons, the keyboard and the mouse.
+    <br>
+    <br>The primary method for learning the course material will be to work through
+    multiple "mini-projects" in Python. &nbsp;To make this class enjoyable,
+    these projects will include building fun games such as Pong, Blackjack,
+    and Asteroids. &nbsp;When you’ve finished our course, we can’t promise
+    that you will be a professional programmer, but we think that you will
+    learn a lot about programming in Python and have fun while you’re doing
+    it.</div>","ImageUrl":"https://s3.amazonaws.com/coursera/topics/interactivepython/large-icon.png","Short_des":"This course is designed to be a fun introduction to the basics of programming in Python. Our main focus will be on building simple interactive games such as Pong, Blackjack and Asteroids.","AuthorList":[{"author":"Joe Warren"},{"author":"Scott Rixner"},{"author":"John Greiner"},{"author":"Stephen Wong"}]}

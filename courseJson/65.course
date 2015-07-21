@@ -1,0 +1,9 @@
+{"ItemName":"Artificial Intelligence Planning","Major":"Computer Science: Artificial Intelligence ","LinkUrl":"https://www.coursera.org/course/aiplan","Content":"The course aims to provide a foundation in artificial intelligence techniques for planning, with an overview of the wide spectrum of different problems and approaches, including their underlying theory and their applications. It will allow you to:<p></p>
+<ul>
+<li>Understand different planning problems</li>
+<li>Have the basic know how to design and implement AI planning systems</li>
+<li>Know how to use AI planning technology for projects in different application domains</li>
+<li>Have the ability to make use of AI planning literature</li>
+</ul>
+
+<p>Planning is a fundamental part of intelligent systems. In this course, for example, you will learn the basic algorithms that are used in robots to deliberate over a course of actions to take. Simpler, reactive robots don't need this, but if a robot is to act intelligently, this type of reasoning about actions is vital.</p>","ImageUrl":"https://s3.amazonaws.com/coursera/topics/aiplan/large-icon.png","Short_des":"The course aims to provide a foundation in artificial intelligence techniques for planning, with an overview of the wide spectrum of different problems and approaches, including their underlying theory and their applications.","AuthorList":[{"author":"Gerhard Wickler"},{"author":"Austin Tate"}]}

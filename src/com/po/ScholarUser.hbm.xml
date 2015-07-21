@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.po">
+	<class name="ScholarUser" table="scholaruser">
+		<!-- 映射标识属性 -->
+		<id name="userId" column="userid"
+			type="int">
+			<!-- 指定主键生成器策略 -->
+			<generator class="identity"/>
+		</id>
+		<!-- 映射普通属性 -->
+		<property name="userName" column="username" type="string" not-null="true"/>
+		<property name="password" type="string" not-null="true"/>
+		
+		<property name="job" type="string"/>
+		<property name="company" type="string"/>		
+		<property name="school" type="string"/>	
+		<property name="degree" type="string"/>		
+		<property name="major" type="string"/>
+		
+		<property name="country" type="string"/>
+		<property name="province" type="string"/>
+		<property name="city" type="string"/>	
+		<property name="address" type="string"/>
+		<property name="zip" type="string"/>	
+		
+		<property name="emailAddress" column="emailaddress" type="string" not-null="true"/>
+		<property name="phoneNum" column="phonenum" type="string" not-null="true"/>	
+		
+		<property name="weiboScreenName" column="weiboname" type="string"/>
+		<many-to-one name="accessToken" lazy="false" cascade="all" class="weibo4j.http.AccessToken"
+			unique="true" column="accesstoken"/>
+			
+		<set name="friends" table="user_user" lazy="false">
+			<key column="userid"/>
+			<many-to-many class="ScholarUser"/>
+		</set>
+		<set name="items" table="user_item" lazy="false">
+			<key column="userid"/>
+			<many-to-many class="Item"/>
+		</set>		
+		<set name="groups" table="user_group">
+			<key column="userid"/>
+			<many-to-many class="InterestGroup"/>
+		</set>			
+		<set name="tweets" table="user_tweet" lazy="false">
+			<key column="userid"/>
+			<many-to-many class="ScholarTweet"/>
+		</set>			
+					
+		<property name="motto" type="string" length="1000"/>	
+		<list name="keywordList" table="keywordlist" lazy="false">
+			<key column="userid" not-null="true"/>
+			<list-index column="list_order"/>
+			<element type="string" column="keyword"/>
+		</list>
+		<set name="recommendItems" table="user_recommend" lazy="false">
+			<key column="userid"/>
+			<many-to-many class="Item"/>
+		</set>						
+	</class>
+</hibernate-mapping>

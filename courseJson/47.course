@@ -1,0 +1,9 @@
+{"ItemName":"Computing for Data Analysis","Major":"Health & Society Statistics and Data Analysis ","LinkUrl":"https://www.coursera.org/course/compdata","Content":"In this course you will learn how to program in R and how to use R for
+effective data analysis. You will learn how to install and configure software
+necessary for a statistical programming environment, discuss generic programming
+language concepts as they are implemented in a high-level statistical language.
+The course covers practical issues in statistical computing which includes
+programming in R, reading data into R, creating informative data graphics,
+accessing R packages, creating R packages with documentation, writing R
+functions, debugging, and organizing and commenting R code. Topics in statistical
+data analysis and optimization will provide working examples.","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/9d/193d89375944329ca3c0bf32b32c56/computing_B-02.jpg","Short_des":"This course is about learning the fundamental computing skills necessary for effective data analysis. You will learn to program in R and to use R for reading data, writing functions, making informative graphs, and applying modern statistical methods.","AuthorList":[{"author":"Roger Peng"}]}

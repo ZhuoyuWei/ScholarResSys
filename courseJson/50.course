@@ -1,0 +1,25 @@
+{"ItemName":"Heterogeneous Parallel Programming","Major":"Computer Science: Systems & Security Computer Science: Software Engineering ","LinkUrl":"https://www.coursera.org/course/hetero","Content":"<p>All computing
+systems, from mobile to supercomputers, are becoming heterogeneous, massively
+parallel computers for higher power efficiency and computation
+throughput. While the computing community is racing to build tools and
+libraries to ease the use of these systems, effective and confident
+use of these systems will always require knowledge about low-level
+programming in these systems. This course is designed for students to
+learn the essence of low-level programming interfaces and how to use these
+interfaces to achieve application goals. CUDA C, with its good balance between
+user control and verboseness, will serve as the teaching vehicle for the first
+half of the course. Students will then extend their learning into closely
+related programming interfaces such as OpenCL, OpenACC, and C++AMP.</p>
+
+<p><span><br>
+The course is unique in that it is application oriented and only introduces the
+necessary underlying computer science and computer engineering knowledge for
+understanding. It covers the concept of data parallel execution models,
+memory models for managing locality, tiling techniques for reducing bandwidth
+consumption, parallel algorithm patterns, overlapping computation with
+communication, and a variety of
+heterogeneous parallel programming interfaces. The concepts learned in this
+course form a strong foundation for learning other types of parallel
+programming systems.</span></p>
+
+<br>","ImageUrl":"https://s3.amazonaws.com/coursera/topics/hetero/large-icon.png","Short_des":"This course introduces concepts, languages, techniques, and patterns for programming heterogeneous, massively parallel processors. Its contents and structure have been significantly revised based on the experience gained from its initial offering in 2012. It covers heterogeneous computing architectures, data-parallel programming models, techniques for memory bandwidth management, and parallel algorithm patterns.","AuthorList":[{"author":"Wen-mei W. Hwu"}]}

@@ -1,0 +1,15 @@
+{"ItemName":"An Introduction to Functional Analysis","Major":"Mathematics ","LinkUrl":"https://www.coursera.org/course/functionalanalysis","Content":"Functional analysis is the branch of mathematics dealing with spaces of
+functions. It is a valuable tool in theoretical mathematics as well as
+engineering. It is at the very core of numerical simulation.
+<br>
+<br>In this class, I will explain the concepts of convergence and talk about
+topology. You will understand the difference between strong convergence
+and weak convergence. You will also see how these two concepts can be used.
+<br>
+<br>You will learn about different types of spaces including metric spaces,
+Banach Spaces, Hilbert Spaces and what property can be expected. You will
+see beautiful lemmas and theorems such as Riesz and Lax-Milgram and I will
+also describe Lp spaces, Sobolev spaces and provide a few details about
+PDEs, or Partial Differential Equations.
+<br>
+<br>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/a3/789ad4ff56b0b713229b88d2e178e8/functionnal-analysis.jpg","Short_des":"Learn about functional analysis","AuthorList":[{"author":"John Cagnol"},{"author":"Anna Rozanova-Pierrat"}]}

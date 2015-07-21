@@ -1,0 +1,25 @@
+{"ItemName":"Introduction to Systematic Program Design - Part 1","Major":"Computer Science: Software Engineering ","LinkUrl":"https://www.coursera.org/course/programdesign","Content":"<p>Phones, diesel engines, animated newspapers, medical devices, games, political
+    campaigns, medical research, mining, transportation systems, ... and so
+    on, and on, and on... every day more of the world around us is at least
+    partly run by computer programs. This means that being able to design programs
+    - or at least be able to work with people who design programs - is becoming
+    a more and more valuable skill.</p>
+<p>To build your own programs you need to know two things: how to use the
+    specific programming language and libraries needed, and the more general
+    skill of how to design a program.</p>
+<p>This course presents a <b>design method</b> that will enable you to approach
+    the design of complex programs systematically. The method will work for
+    programs in this course as well as hard to design programs you develop
+    in the future.</p>
+<p>Using this method you will learn how to model the information in a problem
+    domain, how to structure program data to mirror that information and how
+    to further structure the data to lead to a well organized program. You
+    will also learn to distinguish those parts of a program that are naturally
+    data driven, from those that should use an alternative algorithmic approach.
+    The method uses unit-tests to both produce a better developed design, and
+    to test your program as you develop it.</p>
+<p>In the first course -- Part 1 -- we use a simple
+    teaching language to cover the core of the design method. In Part 1 we cover various forms of data; simple interactive programs like games and animations; storing information in and rendering trees; and finally exploring search programs: programs that solve puzzles like Sudoku boards.&nbsp;</p><p>A second phase of the course, to be offered later, &nbsp;will consist of parallel tracks, with each track using a different popular
+    programming language and focusing on a different kind of problem. This
+    will help you bring the design method to whatever language and problem
+    domain interests you.<br></p>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/e7/a9c4480054bf8b689e86f5cf9f99e3/IntroSystematic_1280x720.jpg","Short_des":"This course is about learning to program well: building programs that are elegant, well tested and easy to maintain.  The course is designed for students with no programming experience at all. Nonetheless, former students who already knew how to program have said it made them better programmers.","AuthorList":[{"author":"Gregor Kiczales"}]}

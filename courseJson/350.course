@@ -1,0 +1,18 @@
+{"ItemName":"Introduction to Programming for Musicians and Digital Artists","Major":"Computer Science: Software Engineering Music, Film, and Audio Arts ","LinkUrl":"https://www.coursera.org/course/chuck101","Content":"<p>The course, lecture, and examples build on each other to teach the fundamentals
+    of programming in general (logic, loops, functions, objects, classes) and
+    also deals with advanced topics including multi-threading, events and signals.
+     Throughout the course, students create meaningful and rewarding expressive
+    digital “instruments” that make sound and music in direct response to program
+    logic.  The ChucK language provides precise high-level control over
+    time, audio computation, and user interface elements (track pad, joysticks,
+    etc.).  ChucK is used (unknowingly in most cases, via SMule Apps)
+    by millions of users throughout the world, and is the backbone of dozens
+    of academic programs and laptop orchestras.  Learning to program using
+    ChucK, through the musical examples provided in this course, will prepare
+    students to program in C++, Java, and other languages. There will be special
+    guest lectures from creators of the ChucK language, Dr. Ge Wang (Stanford
+    University) and Dr. Perry R. Cook (Princeton University).</p>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/ab/addd108da2954eba7c93d4dd009dab78/KapurA.jpg","Short_des":"This course provides a complete introduction to programming for digital musicians and
+artists, in the real-time multimedia language ChucK. Rich with practical examples and
+pointers to additional web resources, it can be understood by novices wishing to learn to
+program interactive arts systems.   
+","AuthorList":[{"author":"Ajay Kapur"}]}

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<!-- 指定Struts 2配置文件的根元素 -->
+<struts>
+	<!-- 指定全局国际化资源文件 -->
+	<constant name="struts.custom.i18n.resources" value="mess"/>
+	<!-- 指定国际化编码所使用的字符集 -->	
+	<constant name="struts.i18n.encoding" value="GBK"/>
+	
+	<!-- struts css 样式 -->
+	<constant name="struts.ui.theme" value="xhtml"/>
+	<constant name="struts.ui.templateDir" value="template"/>	
+	<constant name="struts.ui.templateSuffix" value="ftl"/>	
+	
+	<!-- 所有的Action定义都应该放在package下 -->
+	<package name="com.actions" extends="struts-default">
+		<action name="login" class="loginAction" method="Login">	
+			<!-- <result name="SUC">/home_about_style.jsp</result>-->
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>
+			<!--  <result name="SUC" type="redirect">
+				<param name="location">https://api.weibo.com/oauth2/authorize</param>
+				<param name="client_id">983042473</param>
+				<param name="response_type">code</param>
+				<param name="redirect_uri">http://www.scholarrecsys.com/ScholarResSys/home</param>				
+			</result>-->
+			<result name="ERR">/index.jsp</result>
+		</action>
+		<action name="START" class="loginAction" method="StartPage">
+			<result name="SUC">/index.jsp</result>
+		</action> 
+		<action name="REGISTER" class="registerAction" method="RegisterPage">
+			<result name="SUC">/register_right_style.jsp</result>
+		</action> 	
+		<action name="register" class="registerAction" method="Register">
+			<result name="SUC">/index.jsp</result>
+			<result name="ERR">/register_right_style.jsp</result>
+		</action>
+		<action name="home" class="homeAction" method="LoadHomePage">
+			<result name="LOGIN">/index.jsp</result>
+			<result name="SUC">/home_about_style.jsp</result>
+			<result name="OauthERR">/WEB-INF/jsp/OauthErr.jsp</result>
+		</action>
+		<action name="PublishTweet" class="homeAction" method="PublishOneTweet">
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>		
+		</action>
+		
+		<action name="AddPaper" class="itemAction" method="AddPaperJsp">
+			<result name="LOGIN">/index.jsp</result>		
+			<result name="SUC">/addpaper_right_style.jsp</result>
+		</action>
+		<action name="AddBook" class="itemAction" method="AddBookJsp">
+			<result name="LOGIN">/index.jsp</result>		
+			<result name="SUC">/addbook_right_style.jsp</result>
+		</action>
+		<action name="AddBlog" class="itemAction" method="AddBlogJsp">
+			<result name="LOGIN">/index.jsp</result>		
+			<result name="SUC">/addblog_right_style.jsp</result>
+		</action>
+		<action name="AddOnlineCourse" class="itemAction" method="AddOnlineCourseJsp">
+			<result name="LOGIN">/index.jsp</result>		
+			<result name="SUC">/addcourse_right_style.jsp</result>
+		</action>	
+		
+		<!-- Add Items -->
+		<action name="AddPaperSub" class="itemAction" method="AddOnePaperSub">
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="ERR">/pages-404.jsp</result>
+			<result name="LOGIN">/index.jsp</result>
+		</action>
+		<action name="AddBookSub" class="itemAction" method="AddOneBookSub">
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="ERR">/pages-404.jsp</result>
+			<result name="LOGIN">/index.jsp</result>
+		</action>	
+		<action name="AddBlogSub" class="itemAction" method="AddOneBlogSub">
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="ERR">/pages-404.jsp</result>
+			<result name="LOGIN">/index.jsp</result>
+		</action>
+		<action name="AddOnlineCourseSub" class="itemAction" method="AddOneOnlineCourseSub">
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="ERR">/pages-404.jsp</result>
+			<result name="LOGIN">/index.jsp</result>
+		</action>					
+		
+		<!-- 显示各种Item的信息和评论 -->
+		<action name="ItemInfo" class="itemAction" method="ToItemInfoPage">
+			<result name="PAPER">/paperinfo_singlepost_style.jsp</result>
+			<result name="BOOK">/bookinfo_singlepost_style.jsp</result>	
+			<result name="BLOG">/bloginfo_singlepost_style.jsp</result>	
+			<result name="ONLINE">/courseinfo_singlepost_style.jsp</result>									
+			<result name="ERR">/pages-404.jsp</result>
+		</action>	
+		<action name="Comment" class="itemAction" method="AddOneComment">
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">ItemInfo</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="ERR">/pages-404.jsp</result>
+			<result name="LOG">/index.jsp</result>	
+		</action>
+		<action name="AcceptItem" class="itemAction" method="AcceptOneItem">
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="LOGIN">/index.jsp</result> 
+			<result name="ERR">/pages-404.jsp</result>
+		</action>
+		
+		<!-- Frinds -->	
+		<action name="AddFriend" class="friendAction" method="AddOneFriendEx">
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">MyFriends</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="NOF" type="redirectAction">
+				<param name="actionName">AllPeople</param>
+				<param name="namespace"></param>
+			</result>			
+			<result name="LOG">/index.jsp</result>
+			<result name="ERR">/pages-404.jsp</result>
+		</action>	
+		<action name="AddOneFriend" class="friendAction" method="AddOneFriend">
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="ERR">/pages-404.jsp</result>	
+			<result name="LOG">/index.jsp</result>		
+		</action>
+		
+		<!-- Sina -->
+		<action name="SinaInfo" class="homeAction" method="SynchronizeSinaInfo">
+			<result name="OauthERR">/WEB-INF/jsp/OauthErr.jsp</result>
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="ERR">/pages-404.jsp</result>	
+		</action>
+		
+		<!-- 显示Item List -->
+		<action name="MyItems" class="itemAction" method="ShowMyItems">
+			<result name="SUC">/itemlist_4col_style.jsp</result>
+			<result name="LOG">/index.jsp</result>
+		</action>
+		<action name="ItemList" class="itemAction" method="ShowAllItems">
+			<result name="SUC">/itemlistall_4col_style.jsp</result>
+		</action>	
+		
+		<!-- 显示Friend List -->
+		<action name="MyFriends" class="friendAction" method="ShowMyFriends">
+			<result name="SUC">/friends_3col_style.jsp</result>
+			<result name="LOG">/index.jsp</result>
+		</action>
+		<action name="AllPeople" class="friendAction" method="ShowAllPeople">
+			<result name="SUC">/people_3col_style.jsp</result>
+		</action>		
+		<action name="PersonalInfo" class="friendAction" method="ShowPersonalInfo">
+			<result name="SUC">/personinfo_singlepost_style.jsp</result>
+			<result name="ERR">/pages-404.jsp</result>
+		</action>
+		
+		<!-- 为数据库添加数据 from other website -->
+		<action name="DownloadCourseraData" class="dataAction" method="fnDownloadCourseraData">
+			<result name="SUC">/index.jsp</result>
+			<result name="ERR">/pages-404.jsp</result>
+		</action>
+		<action name="DownloadDlACMData" class="dataAction" method="fnDownloadDlACMData">
+			<result name="SUC">/index.jsp</result>
+			<result name="ERR">/pages-404.jsp</result>
+		</action>	
+		<action name="ComputeSimilar" class="dataAction" method="ComputeSimilarItems">
+			<result name="SUC">/index.jsp</result>
+		</action>	
+		
+		<action name="Recommend" class="dataAction" method="Recommend">
+			<result name="LOGIN">/index.jsp</result>
+			<result name="SUC">/itemonepage_4col_style.jsp</result>
+			<result name="ERR">/pages-404.jsp</result>
+		</action>
+		<action name="Analyze" class="dataAction" method="Analyze">
+			<result name="LOGIN">/index.jsp</result>
+			<result name="SUC" type="redirectAction">
+				<param name="actionName">home</param>
+				<param name="namespace"></param>
+			</result>
+			<result name="ERR">/pages-404.jsp</result>
+		</action>		
+		
+			
+	</package>
+</struts>

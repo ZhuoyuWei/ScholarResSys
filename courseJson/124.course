@@ -1,0 +1,89 @@
+{"ItemName":"Digital Systems - Sistemas Digitales: De las puertas lógicas al procesador","Major":"Information, Tech & Design Engineering ","LinkUrl":"https://www.coursera.org/course/digitalsystems","Content":"<div>
+    <b>Promotional videos in English and in Spanish</b>
+    <p>Please note that this is a <b>bilingual English-Spanish course</b> with all material duplicated in both languages. Click <a href="http://videosdigitals.uab.es/video/31/playVideo.html?serial=548&amp;file=1503.mp4" target="_blank"><b>here</b></a> to watch
+        the promotional video in <b>English</b>.</p>
+
+    <p><i><b>Atención</b>: este es un curso <b>bilingüe español-inglés</b> con todo el material duplicado en ambos idiomas. Para ver el video promocional en <b>español</b>, haced clic <a href="http://videosdigitals.uab.es/video/31/playVideo.html?serial=548&amp;file=1502.mp4"
+        target="_blank"><b>aquí</b></a>.
+</i>
+    </p>
+
+</div>
+<br>
+
+<div>
+    <p>In this course we will learn how to design digital circuits, following an up to date and practical orientation. Although we will study the basic electronic devices necessary for the construction of digital systems, our interest will focus more on
+        the <b><u>system</u></b> than in the Electronics. This approach will allow us to establish the fundamentals of complex digital systems design.
+        <br>To follow the course it is necessary to have a basic knowledge of the base_2 arithmetics and the essential elements of Electricity/Electronics (components, currents, voltages, units, etc.). There will be a “week_0” in which students may perform
+        some self-tests to check their level of knowledge on these subjects.
+        <br>This course is especially suitable for first years ICT (Information and Communication Technologies) engineering students, and also suitable for all those who wish to be initiated in the world of digital systems. This first course in digital systems
+        is a must for all those who wish to deepen in the computer hardware and / or in the world of application specific integrated circuits (ASICs), which constitute an important part of robotics, bionics, industrial control and other application fields.
+    </p>
+
+    <p>After completing this course the student will be able to:
+        <br>
+
+    </p>
+    <ul>
+        <li>Design digital systems of medium complexity.</li>
+
+        <li>Describe and synthesize digital systems using high level hardware description languages.</li>
+
+        <li>Understand the operation of computers at its most basic level (machine language).</li>
+
+    </ul>
+    <p></p>
+    <br>
+
+    <p> <b>Collaborating teachers:</b> 
+    </p>
+
+
+    <p>Mercè Rullán Ayza</p>
+    <p>Vicenç Soler Ruiz</p>
+    <p>Joaquín Sáiz Alcaine</p>
+    <p>David Bañeres Besora</p>
+    <p>Jordi Aguiló Llobet</p>
+    <p>David Mateo</p>
+
+</div>
+<br>
+
+<div>
+    <h2>Sobre el curso</h2>
+
+    <p>En este curso aprenderemos los fundamentos del diseño de los circuitos digitales actuales, siguiendo una orientación eminentemente práctica.
+        <br>Aunque estudiaremos los dispositivos electrónicos básicos necesarios para la construcción de los Sistemas Digitales,nuestro interés se centrará más en el <b><u>sistema</u></b>
+        que en la Electrónica que lo sustenta. Este enfoque nos permitirá sentar las bases del diseño de Sistemas Digitales complejos.
+        <br>Para seguir el curso es necesario tener conocimientos previos del sistema de numeración binario, de programación (ningún lenguaje en concreto, sólo el concepto de pseudo-código), y de las bases de la Electricidad/Electrónica (componentes, corrientes,
+        tensiones, unidades, etc.). Habrá una "semana_0" en la que los estudiantes podrán realizar pruebas de autoevaluación para comprobar su nivel de conocimientos en estos temas.
+        <br>Se trata de un curso muy adecuado para estudiantes de primeros cursos de carreras de Ingenierías cercanas a las TIC (Tecnologías de la Información y de las Comunicaciones), y para todas aquellas personas que deseen introducirse en el mundo de
+        los Sistemas Digitales.
+        <br>Por otra parte, este primer curso de Sistemas Digitales es un paso obligado para aquellas personas que deseen posteriormente profundizar en temas como el hardware de computadores y/o los circuitos integrados de aplicación específica, con todas
+        las aplicaciones que ello implica (robótica, biónica, control industrial, etc.).
+    </p>
+    <p>Al acabar el curso el estudiante será capaz de:
+        <br>
+    </p>
+    <ul>
+        <li>Diseñar Sistemas Digitales de complejidad media.</li>
+
+        <li>Describir y sintetizar Sistemas Digitales mediante lenguajes de descripción hardware de alto nivel.</li>
+
+        <li>Comprender el funcionamiento de los computadores a su nivel más básico (lenguaje máquina), así como su materialización e interpretación a través de sistemas digitales algorítmicos.</li>
+    </ul>
+    <p></p>
+    <br>
+
+    <p><b>Colaboradores docentes:</b> 
+    </p>
+
+    <p>Mercè Rullán Ayza</p>
+    <p>Vicenç Soler Ruiz</p>
+    <p>Joaquín Sáiz Alcaine</p>
+    <p>David Bañeres Besora</p>
+    <p>Jordi Aguiló Llobet</p>
+    <p>David Mateo</p>
+    <br>
+</div>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/a0/84ba1dc886b1a592c8dc7e6b19e512/logo-sistemas-digitales.png","Short_des":"El curso es bilingüe español-inglés, con videos y materiales en ambos idiomas.
+Lectures and materials are provided both in Spanish and English. ","AuthorList":[{"author":"Elena Valderrama"},{"author":"Jean Pierre Deschamps"},{"author":"Lluis Terés"}]}

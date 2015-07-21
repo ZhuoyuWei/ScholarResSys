@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.po">
+	<class name="Item" table="item">
+		<!-- 映射标识属性 -->
+		<id name="itemId" column="itemid"
+			type="int">
+			<!-- 指定主键生成器策略 -->
+			<!--<generator class="identity"/>-->
+			<generator class="identity"/>
+		</id>
+		<!-- 映射普通属性 -->
+		<property name="itemType" column="itemtype" type="string" not-null="true"/>
+		<property name="itemName" column="itemname" type="string" />
+		<property name="major" type="string" />		
+		<property name="linkUrl" column="linkurl" type="string"/>		
+		<list name="tags" table="item_tag" lazy="false">
+			<key column="itemid" not-null="true"/>
+			<list-index column="list_order"/>
+			<element type="string" column="tags"/>
+		</list>
+	
+		<set name="similarItemSet" table="similaritemset" lazy="false">
+			<key column="itemid"/>
+			<many-to-many class="Item"/>
+		</set>			
+		<set name="comments" table="item_comment" lazy="false">
+			<key column="itemid"/>
+			<many-to-many class="Comment"/>
+		</set>			
+		
+		<!-- sub class for joined-subclass -->
+		<joined-subclass name="Blog" table="blog">
+			<key column="itemid"/>
+			<property name="blogName" column="blogname" type="string"/>
+			<property name="author" type="string"/>
+			<property name="discription" type="string" length="2000"/>
+
+		</joined-subclass>
+		
+		<joined-subclass name="Book" table="book">
+			<key column="itemid"/>
+			<list name="authorList" table="book_author" lazy="false">
+				<key column="itemid" not-null="true"/>
+				<list-index column="list_order"/>
+				<element type="string" column="authors"/>
+			</list>			
+			<property name="abstractContent" column="abstractcontent" type="string" length="5000"/>
+			<property name="publisher" type="string"/>
+			<property name="year" type="int"/>
+			<property name="imageUrl" column="imageurl" type="string"/>
+			<property name="pubYear" column="pubyear" type="int"></property>	
+		</joined-subclass>	
+		
+		<joined-subclass name="OnelineCourse" table="onelinecourse">
+			<key column="itemid"/>
+			<property name="content" type="string" length="5000"/>
+			<list name="authorList" table="course_author" lazy="false">
+				<key column="itemid" not-null="true"/>
+				<list-index column="list_order"/>
+				<element type="string" column="authors"/>
+			</list>	
+			<property name="imageUrl" column="imageurl" type="string"/>
+			<property name="short_des" column="shortdes" type="string" length="2000"/>			
+		</joined-subclass>		
+		
+		<joined-subclass name="Paper" table="paper">
+			<key column="itemid"/>
+			<list name="authorList" table="paper_author" lazy="false">
+				<key column="itemid" not-null="true"/>
+				<list-index column="list_order"/>
+				<element type="string" column="authors"/>
+			</list>			
+			<property name="paperType" column="papertype" type="string"/>
+			<property name="journal" type="string"/>
+			<property name="conference" type="string"/>
+			<property name="abstractContent" column="abstractcontent" type="string" length="2000"/>
+			<property name="pubYear" column="pubyear" type="int"></property>
+			<property name="kddIndex" column="kddindex" type="int"></property>						
+		</joined-subclass>			
+		
+		
+		
+								
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+{"ItemName":"Introduction to Systems Biology","Major":"Biology & Life Sciences ","LinkUrl":"https://www.coursera.org/course/sysbio","Content":"<p>This
+course will introduce the student to contemporary Systems Biology focused on
+mammalian cells, their constituents and their functions.&nbsp; Biology is moving from molecular to modular.
+As our knowledge of our genome and gene expression deepens and we develop lists
+of molecules (proteins, lipids, ions) involved in cellular processes, we need
+to understand how these molecules interact with each other to form modules that
+act as discrete functional systems.&nbsp;
+These systems underlie core subcellular processes such as signal
+transduction, transcription, motility and electrical excitability. In turn
+these processes come together to exhibit cellular behaviors such as secretion,
+proliferation and action potentials. What are the properties of such subcellular
+and cellular systems?&nbsp;&nbsp; What are the
+mechanisms by which emergent behaviors of systems arise?&nbsp; What types of experiments inform systems-level
+thinking? Why do we need computation and simulations to understand these
+systems?</p>
+
+<p>The course will develop multiple lines of
+reasoning to answer the questions listed above. Two major reasoning threads
+are: the design, execution and interpretation of multivariable experiments that
+produce large data sets; quantitative reasoning, models and simulations.&nbsp; Examples will be discussed to demonstrate
+“how” cell- level functions arise and “why” mechanistic knowledge allows us to
+predict cellular behaviors leading to disease states and drug responses.<br></p>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/42/1b8fdf11bde18fd7fed9d2c24d1c03/Introduction_SB_logo_600X340.png","Short_des":"An introduction to current concepts of how cellular molecules come together to form systems, how these systems exhibit emergent properties, and how these properties are used to make cellular decisions.","AuthorList":[{"author":"Ravi Iyengar"}]}

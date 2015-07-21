@@ -1,0 +1,12 @@
+{"ItemName":"Aléatoire : une Introduction aux Probabilités ","Major":"Mathematics ","LinkUrl":"https://www.coursera.org/course/probas","Content":"La modélisation probabiliste est fondamentale dans tous les domaines d'applications. Mentionnons la physique, l'informatique, les réseaux de télécommunications, la finance, l'assurance, la biologie et la médecine. Modéliser tant de situations
+différentes où le hasard intervient requiert un cadre général abstrait qui ne fut rigoureusement défini qu'en 1933 par Kolmogorov. 
+<br>C'est ce grand écart entre l'apparente simplicité de certains problèmes probabilistes concrets et l'abstraction que nécessite leur résolution qui peut
+<br>rendre le monde de l'aléatoire difficile voire inquiétant, mais c'est aussi ce qui en fait un domaine des mathématiques d'une grande richesse.
+<br>
+<br>Le but de ce cours est d'en convaincre les étudiants par une introduction des notions de base de la théorie des probabilités. Il n'exige pas de pré-requis en théorie de la mesure et de l'intégration. Les outils d'analyse nécessaires à une bonne compréhension
+des objets probabilistes sont fournis au fur et à mesure de leur construction, mettant ainsi en lumière leur nécessité. 
+<br>Le contenu du cours va de la définition d'une probabilité au théorème de la limite centrale, et contient également un ouverture aux processus aléatoires.
+<br>
+<br>
+<br>
+<br>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/ae/502b13026cc6efca7aa39dac4de841/logo-0.jpg","Short_des":"Ce cours introduit le concept de Probabilité, dont la puissance permet de modéliser d'innombrables situations où le hasard intervient. Il est fondé sur le livre de Sylvie Méléard "Aléatoire : introduction à la théorie et au calcul des probabilités" qui résulte lui-même du cours de tronc commun de première année de l'École polytechnique.","AuthorList":[{"author":"Sylvie Méléard"},{"author":"Jean-René Chazottes"},{"author":"Carl Graham"}]}

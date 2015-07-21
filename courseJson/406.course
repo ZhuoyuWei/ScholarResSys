@@ -1,0 +1,33 @@
+{"ItemName":"Introduction to Recommender Systems","Major":"Information, Tech & Design Business & Management Computer Science: Artificial Intelligence ","LinkUrl":"https://www.coursera.org/course/recsys","Content":"<p>Recommender
+ systems have changed the way people find products, information, and even 
+other people. They study patterns of behavior to know what someone will 
+prefer from among a collection of things he has never experienced. The 
+technology behind recommender systems has evolved over the past 20 years
+ into a rich collection of tools that enable the practitioner or 
+researcher to develop effective recommenders. We will study the most 
+important of those tools, including how they work, how to use them, how 
+to evaluate them, and their strengths and weaknesses in practice.</p><p>The
+ algorithms we will study include content-based filtering, user-user 
+collaborative filtering, item-item collaborative filtering, dimensionality 
+reduction, and interactive critique-based recommenders. The approach 
+will be hands-on, with six two week projects, each of which will involve
+ implementation and evaluation of some type of recommender.</p><p><b>Two Ways to Take this Course</b>:</p><p>This course is designed to support two different types of students and educational goals:</p><p><i>Programming Track</i>: &nbsp;Designed
+ for students with significant programming and mathematics experience 
+(see below), the programming track combines a conceptual and 
+mathematical understanding of recommender systems with experience 
+programming six different recommender systems projects. &nbsp;Students 
+completing this travel will gain the skills needed to implement basic 
+recommenders from scratch, and to use software libraries and tools to 
+implement more advanced recommenders.</p><p><i>Concepts Track</i>:<span>
+ &nbsp;Students who are not experienced programmers, or who are primarily 
+interested in understanding the concepts and techniques of recommender 
+systems, without learning to program them, can choose to focus on the 
+conceptual and mathematical content, skipping the programming projects 
+and associated lecture content.&nbsp; Students in the concepts track are 
+still expected to have significant familiarity with computing systems 
+and college-level mathematics, but need not be accomplished programmers.
+ &nbsp;We expect this track to be useful for tech-savvy marketing and 
+business leaders, as well as engineering managers who may oversee but 
+not directly develop recommender systems. &nbsp;We also hope it will be 
+useful to those looking to understand recommender systems concepts 
+without the workload associated with programming those systems.&nbsp; <br></span></p>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/b1/0dd0ff0e44a763cfba188a761ae2cb/movielens.jpg","Short_des":"This course introduces the concepts, applications, algorithms, programming, and design of recommender systems--software systems that recommend products or information, often based on extensive personalization.  Learn how web merchants such as Amazon.com personalize product suggestions and how to apply the same techniques in your own systems!","AuthorList":[{"author":"Joseph A Konstan"},{"author":"Michael D Ekstrand"}]}

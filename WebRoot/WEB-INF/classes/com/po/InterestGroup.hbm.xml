@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.po">
+	<class name="InterestGroup" table="interestgroup">
+		<!-- 映射标识属性 -->
+		<id name="groupId" column="groupid"
+			type="int">
+			<!-- 指定主键生成器策略 -->
+			<generator class="identity"/>
+		</id>
+		<!-- 映射普通属性 -->
+		<property name="groupName" type="string" not-null="true"/>
+		<property name="discription" type="string" length="1000"/>
+		
+		<list name="tags" table="interestgroup_tag">
+			<key column="groupid" not-null="true"/>
+			<list-index column="list_order"/>
+			<element type="string" column="tags"/>
+		</list>
+		
+		<set name="userSet" table="interestgroup_user">
+			<key column="groupid"/>
+			<many-to-many class="ScholarUser"/>
+		</set>
+		
+		
+		
+							
+								
+	</class>
+</hibernate-mapping>

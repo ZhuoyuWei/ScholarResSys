@@ -1,0 +1,23 @@
+{"ItemName":"Pattern-Oriented Software Architectures for Concurrent and Networked Mobile Devices and Clouds","Major":"Information, Tech & Design Computer Science: Systems & Security Computer Science: Software Engineering ","LinkUrl":"https://www.coursera.org/course/posa","Content":"<p>The confluence of multi-core and distributed-core processors, inexpensive mass storage, ubiquitous wireless connectivity, and commodity software platforms is driving the need for software engineers and programmers who understand how to develop
+    concurrent and networked software for mobile devices that connect to cloud computing platforms. Despite many improvements in processors, storage, and networks, however, developing quality software on-time and on-budget remains hard. Moreover,
+    developing high quality <i>reusable
+</i> concurrent and networked software apps and services is even harder.  The principles, methods, and skills required to develop such software are best learned by attaining mastery of <i>patterns</i>, <i>pattern languages</i>,
+    and <i>frameworks</i>.</p>
+<p>
+
+    A <a href="http://en.wikipedia.org/wiki/Software_design_pattern">pattern</a> describes a reusable solution to a common problem that arises within a particular context. When related patterns are woven together they form a <a href="http://en.wikipedia.org/wiki/Pattern_language">pattern language</a> that
+    defines a vocabulary and a process for the orderly resolution of software development problems. A <a href="http://en.wikipedia.org/wiki/Software_framework" title="Link: http://en.wikipedia.org/wiki/Software_framework">framework</a> is an integrated set of components that collaborate to provide a reusable
+    architecture for a family of related apps or services.  Frameworks can also be viewed as concrete realizations of pattern languages that facilitate direct reuse of detailed design and source code.</p>
+<p>
+
+    This course describes <i>by example</i> how to apply patterns, pattern languages, and frameworks to alleviate the complexity of developing concurrent and networked software for mobile devices and clouds via the use of object-oriented design
+    techniques, <a href="http://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java</a> programming language features, <a href="http://developer.android.com/" target="_blank">Android </a>and <a href="http://www.eclipse.org/jetty/" target="_blank">Jetty</a> middleware, <a href="http://en.wikipedia.org/wiki/Linux" target="_blank">Linux</a> operating system mechanisms, and <a href="http://en.wikipedia.org/wiki/Cloud_computing" target="_blank">cloud computing</a> platforms,
+    such as <a href="https://developers.google.com/appengine/" target="_blank">Google App Engine</a>. An extended case study project will be used throughout the course to showcase pattern-oriented software design and programming techniques for concurrent
+    and networked mobile devices and clouds.</p>
+<p><b>Note: This course is part of a cross-institution course sequence</b>. </p>
+<p>This course and another, led by Dr. Adam Porter from the University of Maryland, have been designed to complement each other.  Therefore, some of the programming assignments and the course project for both courses will be coordinated. The University
+    of Maryland course, <a href="https://www.coursera.org/course/android" target="_blank">Programming Handheld Systems with Android</a>, will focus on the design and programming of user-facing applications, and will be taught first.  This course
+    focuses on systems programming topics, such as server-side Android concurrency, background processing, networking, and computing cloud integration, and will be taught second.  The University of Maryland course is currently scheduled to be taught
+    in January 2014. </p>
+<p>Nevertheless, each of these courses stands alone. Students are not required to take both. Those who do, however, will gain a much more detailed, end-to-end understanding of handheld systems, their apps, and their integration into the cloud.</p>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/6a/a304d2720149e3ae422acbfda19f6d/foos.jpg","Short_des":"In this course we will learn how to apply patterns, pattern languages, and frameworks to alleviate the complexity of developing concurrent and networked software for mobile devices running Android that connect to cloud computing platforms.  
+","AuthorList":[{"author":"Douglas C. Schmidt"},{"author":"C. Jules White"}]}

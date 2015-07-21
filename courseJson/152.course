@@ -1,0 +1,13 @@
+{"ItemName":"Linear and Discrete Optimization","Major":"Computer Science: Theory Mathematics ","LinkUrl":"https://www.coursera.org/course/linearopt","Content":"This
+ course serves as an introduction to linear and discrete 
+optimization from the viewpoint of a mathematician or computer 
+scientist.  Besides learning how linear and discrete optimization can be applied, we focus on 
+understanding methods that solve linear programs and discrete optimization problems in a mathematically 
+rigorous way. <br><br>We will answer  questions like:<br><br><ul><li>Does a particular method work correctly?</li><li>Does it terminate and, if yes, in what time?</li><li>Can we prove that a solution is optimal?</li></ul>The
+ course starts by discussing what a linear program is and how linear programming can be 
+applied. Then, we will treat the simplex method and the theory of 
+duality. We will then discuss some combinatorial optimization problems like maximum weight bipartite matching and maximum flows. <br><br>The
+ course constitutes about half of the material on linear and discrete optimization 
+that is taught for mathematics and computer science undergraduates at 
+EPFL and will feature video lectures, quizzes, programming assignments, 
+and a final exam. <br>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/1a/c51aad6b5debccc8e5154afe2c039b/logo_big.png","Short_des":"The course is an introduction to linear and discrete optimization - an important part of computational mathematics with a wide range of applications in many areas of everyday life.","AuthorList":[{"author":"Friedrich Eisenbrand"}]}

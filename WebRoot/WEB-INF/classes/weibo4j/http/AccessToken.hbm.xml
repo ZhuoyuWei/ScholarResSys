@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="weibo4j.http">
+
+	<class name="AccessToken" table="tb_accesstoken">
+		<!-- 映射标识属性 -->
+		<id name="uid" column="uid"
+			type="string" >
+		</id>
+		<!-- 映射普通属性 -->
+		<property name="accessToken" column="accesstoken" type="string"/>
+		<property name="expireIn" column="expirein" type="string"/>
+		<property name="refreshToken" column="refreshtoken" type="string"/>
+			
+	</class>
+	
+</hibernate-mapping>

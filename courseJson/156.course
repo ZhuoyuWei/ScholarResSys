@@ -1,0 +1,23 @@
+{"ItemName":"High Performance Scientific Computing","Major":"Information, Tech & Design Statistics and Data Analysis ","LinkUrl":"https://www.coursera.org/course/scicomp","Content":"<p>Computation and simulation are increasingly important in all aspects of
+    science and engineering. At the same time writing efficient computer programs
+    to take full advantage of current computers is becoming increasingly difficult.
+    Even laptops now have 4 or more processors, but using them all to solve
+    a single problem faster often requires rethinking the algorithm to introduce
+    parallelism, and then programming in a language that can express this parallelism.&nbsp;
+    Writing efficient programs also requires some knowledge of machine arithmetic,
+    computer architecture, and memory hierarchies.</p>
+<p>Although parallel computing will be covered, this is <i>not</i> a class
+    on the most advanced techniques for using supercomputers, which these days
+    have tens of thousands of processors and cost millions of dollars. Instead,
+    the goal is to teach tools that you can use immediately on your own laptop,
+    desktop, or a small cluster. Cloud computing will also be discussed, and
+    students who don't have a multiprocessor computer of their own will still
+    be able to do projects using Amazon Web Services at very low cost.</p>
+<p>Along the way there will also be discussion of software engineering tools
+    such as debuggers, unit testing, Makefiles, and the use of version control
+    systems. After all, your time is more valuable than computer time, and
+    a program that runs fast is totally useless if it produces the wrong results.</p>
+<p>High performance <i>programming</i> is also an important aspect of high
+    performance scientific computing, and so another main theme of the course
+    is the use of basic tools and techniques to improve your efficiency as
+    a computational scientist.</p>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/1a/3aad2cea79bbc570d040e889edb2fb/HighPerformanceComputingIma.jpg","Short_des":"Programming-oriented course on effectively using modern computers to solve scientific computing problems arising in the physical/engineering sciences and other fields. Provides an introduction to efficient serial and parallel computing using Fortran 90, OpenMP, MPI, and Python, and software development tools such as version control, Makefiles, and debugging.","AuthorList":[{"author":"Randall J. LeVeque "}]}

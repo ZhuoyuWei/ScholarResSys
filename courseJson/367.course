@@ -1,0 +1,16 @@
+{"ItemName":"Bioinformatics Algorithms (Part 1) ","Major":"Computer Science: Theory Biology & Life Sciences ","LinkUrl":"https://www.coursera.org/course/bioinformatics","Content":"<p><span class="GingerNoCheckStart"></span>The sequencing of the&nbsp;human genome a decade ago&nbsp;fueled a computational revolution
+    in biology, which&nbsp;has arguably been an impetus for more new&nbsp;algorithms
+    than any other fundamental realm of&nbsp;science.&nbsp; The newly formed&nbsp;links
+    between computer science and biology affect the way we teach computational
+    ideas to biologists, as well as how applied algorithms are taught to computer
+    scientists.&nbsp;</p>
+<p>Genome sequencing is just one of hundreds of biological problems that
+    have become inextricable from the computational methods required to solve
+    them. In this course, we will take a look at some of the algorithmic ideas
+    that are&nbsp;fundamental to an&nbsp;understanding of modern biology.&nbsp;
+    Computational concepts like dynamic programming and graph theory&nbsp;will
+    help us explore algorithms applied to&nbsp;a wide range of biological topics,
+    from finding regulatory motifs&nbsp;to reconstructing the tree of life.&nbsp; Throughout
+    the process, we will apply&nbsp;<i>real</i> bioinformatics algorithms to&nbsp;<i>real</i> genetic
+    data.</p>
+<p>We have created an interactive textbook for this course, which allows you to learn and solve problems concurrently. &nbsp;This textbook will be hosted on <a href="https://beta.stepic.org/2" target="_blank" title="Link: https://beta.stepic.org/2">Stepic</a>,&nbsp;a new resource for learning interactively.</p><span class="GingerNoCheckEnd"></span>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/92/8a7b48f5f44562168d72ecc5b472f6/Bioinf.png","Short_des":"This course will cover some of the common algorithms underlying the following fundamental topics in bioinformatics: assembling genomes, comparing DNA and protein sequences,  finding regulatory motifs, analyzing genome rearrangements, identifying proteins, and many other topics. ","AuthorList":[{"author":"Pavel  Pevzner"},{"author":"Phillip E. C. Compeau"},{"author":"Nikolay Vyahhi"}]}

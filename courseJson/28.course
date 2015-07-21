@@ -1,0 +1,27 @@
+{"ItemName":"Discrete Inference and Learning in Artificial Vision","Major":"Computer Science: Artificial Intelligence ","LinkUrl":"https://www.coursera.org/course/artificialvision","Content":"<p>Artificial
+vision applications, such as object detection in natural images and automatic
+segmentation of medical acquisitions, rely on models that interpret the visual
+information provided to a computer. The model provides a compromise between the
+support given by the observations and the prior domain knowledge. This course
+is concerned with the two computational problems that arise when using such models
+in practice.</p>
+
+<p><i>Inference
+(Energy Minimization):</i></p>
+
+<p>Given a visual observation (for example, an image or an MRI scan), we
+are interested in estimating its most likely interpretation (i.e. the location of all
+the objects in the image, or the segments of the MRI scan) according to the
+model. While the problem cannot be solved optimally, we will describe state of the art approximate algorithms that provide very accurate solutions in
+practice. While the theoretical properties of the algorithms will be discussed
+briefly, the main emphasis will be on their application.</p>
+
+<p><i> Learning
+(Parameter Estimation):</i><br></p>
+
+<p>Given a set of training samples consisting of inputs and their desired
+outputs, (for example, images and the location of the objects, or MRI scans and
+their segmentations) we would like to estimate a model that is suited to the
+task at hand. We will show how the problem of learning a model can be
+formulated as empirical risk minimization. Furthermore, we will present
+efficient algorithms for solving the corresponding optimization problem.</p>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/10/b69211826f81680acbbf763109177f/cours-nikos-3.jpg","Short_des":"We will present the state of the art energy minimization algorithms that are used to perform inference in modern artificial vision models: that is, efficient methods for obtaining the most likely interpretation of a given visual input. We will also cover the popular max-margin framework for estimating the model parameters using inference.","AuthorList":[{"author":"Nikos Paragios"},{"author":"Pawan Kumar"}]}

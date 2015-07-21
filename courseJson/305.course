@@ -1,0 +1,25 @@
+{"ItemName":"Network Analysis in Systems Biology","Major":"Biology & Life Sciences Statistics and Data Analysis Computer Science: Artificial Intelligence ","LinkUrl":"https://www.coursera.org/course/netsysbio","Content":"<p>The
+course Network Analysis in Systems Biology provides an introduction to network
+analysis and statistical methods used in contemporary Systems Biology and Systems Pharmacology research. Students will learn how to construct, analyze and
+visualize different types of molecular networks, including gene regulatory
+networks connecting transcription factors to their target genes,
+protein-protein interaction networks, cell signaling pathways and networks, drug-target and drug-drug similarity networks and other functional association networks. Methods to process raw data from genome-wide
+RNA (microarrays and RNA-seq) and proteomics (IP-MS and phosphoproteomics)
+profiling will be presented. Processed data will be clustered, and gene-set
+enrichment analyses methods will be covered. The course will also discuss
+topics in network systems pharmacology including processing and using databases
+of drug-target interactions, drug structure, drug/adverse-events, and drug
+induced gene expression signatures.   </p>
+
+<span>Half of the course will contain theoretical discussions of advanced topics in the field but with the assumption that the course participants are from diverse backgrounds. The course will also have practical tutorials for analyzing various high content experimental datasets going from the raw data to finished high quality figures for publication. Standard statistical methods for high content data analysis will be covered. The
+course is appropriate for beginning graduate students and advanced
+undergraduates. Lectures provide background knowledge in understanding the
+properties of large datasets collected from mammalian cells. In the course we
+will teach how these datasets can be analyzed to extract new knowledge about
+the system. Such analyses include clustering, data visualization techniques,
+network construction, and gene-set enrichment analyses. The
+course will be useful for students who encounter large datasets in their own
+research, typically genome-wide. The course will teach the students how to use existing
+software tools such as those developed by the <a href="http://www.mssm.edu/research/labs/maayan-laboratory">Ma’ayan Laboratory</a> at Mount
+Sinai, but also other freely available software tools. In addition the course
+requires the students to write short scripts in Python and participate in </span>crowdsourcing microtask projects. The ultimate aim of the course is to enable students to utilize the methods they learn here for analyzing their own data for their own projects.<br>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/42/73766b4b2470c124521362d489baea/coursera_image_maayan.png","Short_des":"An introduction to network analysis and statistical methods used in contemporary Systems Biology and Systems Pharmacology research. ","AuthorList":[{"author":"Avi Ma’ayan"}]}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="weibo4j.model">
+
+	<class name="User" table="user">
+		<!-- 映射标识属性 -->
+		<id name="id" column="uid"
+			type="string" >
+		</id>
+		<!-- 映射普通属性 -->
+		<property name="screenName" column="screenname" type="string"/>
+		<property name="name" type="string"/>
+		<property name="province" type="int"/>
+		<property name="city" type="int"/>
+		<property name="location" type="string"/>
+		<property name="description" type="string"/>
+		<property name="url" type="string"/>
+		<property name="profileImageUrl" column="profileimageurl" type="string"/>
+		<property name="userDomain" column="userdomain" type="string"/>
+		<property name="gender" type="string"/>
+		<property name="followersCount" column="followerscount" type="int"/>
+		<property name="friendsCount" column="friendscount" type="int"/>
+		<property name="statusesCount" column="statusescount" type="int"/>
+		<property name="favouritesCount" column="favouritescount" type="int"/>
+		<property name="createdAt" column="createdat" type="date"/>
+		<property name="following" type="boolean"/>
+		<property name="verified" type="boolean"/>
+		<property name="verifiedType" column="verifiedtype" type="int"/>
+		<property name="allowAllActMsg" column="allowallactmsg" type="boolean"/>
+		<property name="allowAllComment" column="allowallcomment" type="boolean"/>
+		<property name="followMe" column="followme" type="boolean"/>
+		<property name="avatarLarge" column="avatarlarge" type="string"/>
+		<property name="onlineStatus" column="onlinestatus" type="int"/>
+		<property name="biFollowersCount" column="bifollowerscount" type="int"/>
+		<property name="remark" type="string"/>
+		<property name="lang" type="string"/>
+		<property name="verifiedReason" column="verifiedreason" type="string"/>
+		<property name="weihao" type="string"/>
+		<property name="statusId" column="statusid" type="string"/>
+		<list name="friendsIdList" table="sina_user_friend" lazy="false">
+			<key column="uid" not-null="true"/>
+			<list-index column="list_order"/>
+			<element type="string" column="friendid"/>
+		</list>		
+	</class>
+	
+</hibernate-mapping>

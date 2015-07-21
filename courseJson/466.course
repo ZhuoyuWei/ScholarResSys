@@ -1,0 +1,18 @@
+{"ItemName":"Measuring Causal Effects in the Social Sciences","Major":"Social Sciences ","LinkUrl":"https://www.coursera.org/course/causaleffects","Content":"<p>In this course
+we discuss how to identify causal effect in the social sciences. Causal effects
+are interesting whenever we want to understand <i>mechanisms</i>. <br></p><p></p><p>As
+an example we can think of the case of wage differentials across gender. This
+may be due to either discrimination from employers or differences in unobserved
+background characteristics across gender. Usually we would like to think about
+discrimination as a mechanism whereas differences in background characteristics
+would usually not been seen as a mechanism. So it may be important to be able
+to tell why there is pay differences across gender. </p>
+
+
+
+<p><span>To show
+causal effects the provision of a statistical relationship is not enough.&nbsp; The fundamental problem in identifying causal
+effects is therefore a matter of research design and research strategy. <br></span></p><p>During the course we will
+examine such research designs and strategies and look at the relevance of different assumptions behind these
+methods. The course also addresses the benefits of experimental data and introduces several new statistical and econometrical methods designed to improve causal statements from
+non-experimental and observational data.</p><br>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/dd/b5a71597c2af418b368e7e8fc85654/social_science.jpg","Short_des":"How can we know if the differences in wages between men and women are caused by discrimination or differences in background characteristics? In this course we look at causal effects as opposed to spurious relationships. We will discuss how they can be identified in the social sciences using quantitative data, and describe how this can help us understand social mechanisms. ","AuthorList":[{"author":"Anders Holm"}]}

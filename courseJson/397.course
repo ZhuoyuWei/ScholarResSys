@@ -1,0 +1,18 @@
+{"ItemName":"Everything is the Same: Modeling Engineered Systems","Major":"Engineering ","LinkUrl":"https://www.coursera.org/course/modelsystems","Content":"Students
+ in this class will learn modeling and analysis techniques applicable to
+ electrical, mechanical, and chemical systems.  This “systems” view, 
+that focuses on what is common to these different physical systems, has 
+been responsible for much of the progress in the last several decades in
+ aeronautics, robotics, and other engineering disciplines where there 
+are many different technologies working together.  <br><br>Starting
+ with algebraic descriptions of individual components (such as 
+resistors), the class develops tools for modeling engineered systems.  Differential 
+equations are key ingredients, so we will spend significant time 
+learning how to derive differential equations from component descriptions. 
+ One of the key ideas in this class is that electrical, mechanical, and 
+chemical systems may seem very different from each other but often have 
+very similar behavior, allowing us to draw powerful analogies between 
+them.  Case studies from several areas of engineering will be used to 
+illustrate the modeling techniques, including examples from robotics, 
+power networks, exoskeletons, biomechanics, system identification, and active sensing.  Students will be encouraged to do hands-on 
+experiments that demonstrate the techniques.  <br><br>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/f9/728a46926baf6218aff2bfdbc1c9ef/TDMurpheyCourseraLogo.jpg","Short_des":"This introduction to engineering course will help you learn modeling and analysis techniques for electrical, mechanical, and chemical systems and discover how engineered systems that seem very different are actually very similar.  ","AuthorList":[{"author":"Todd D. Murphey"}]}

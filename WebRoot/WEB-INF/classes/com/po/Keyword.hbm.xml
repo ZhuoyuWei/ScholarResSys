@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.po">
+	<class name="Keyword" table="keyword">
+		<!-- 映射标识属性 -->
+		<id name="keywordToken" column="keywordtoken"
+			type="string">
+		</id>
+		<!-- 映射普通属性 -->
+		<set name="paperSet" table="paperset" lazy="false">
+			<key column="keywordtoken"/>
+			<many-to-many class="Paper"/>
+		</set>	
+		<set name="bookSet" table="bookset" lazy="false">
+			<key column="keywordtoken"/>
+			<many-to-many class="Book"/>
+		</set>			
+		<set name="blogSet" table="blogset" lazy="false">
+			<key column="keywordtoken"/>
+			<many-to-many class="Blog"/>
+		</set>
+		<set name="courseSet" table="courseset" lazy="false">
+			<key column="keywordtoken"/>
+			<many-to-many class="OnelineCourse"/>
+		</set>		
+		<set name="itemSet" table="keyword_itemset" lazy="false">
+			<key column="keywordtoken"/>
+			<many-to-many class="Item"/>
+		</set>			
+		<property name="score" column="score" type="double"/>				
+								
+	</class>
+</hibernate-mapping>

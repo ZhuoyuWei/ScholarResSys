@@ -1,0 +1,16 @@
+{"ItemName":"Malicious Software and its Underground Economy: Two Sides to Every Story","Major":"Computer Science: Systems & Security Computer Science: Software Engineering ","LinkUrl":"https://www.coursera.org/course/malsoftware","Content":"Cybercrime has become both more widespread and harder to battle. Researchers and anecdotal
+experience show that the cybercrime scene is becoming increasingly organized
+and consolidated, with strong links also to traditional criminal networks.
+Modern attacks are indeed stealthy and often profit oriented.
+
+<br><br>Malicious software (malware) is the traditional way in which cybercriminals infect user
+and enterprise hosts to gain access to their private, financial, and
+intellectual property data. Once stolen, such information can enable more
+sophisticated attacks, generate illegal revenue, and allow for cyber-espionage.
+<br><br>By mixing a practical, hands-on approach with the theory and techniques behind the scene, the course discusses the current academic and underground research in the
+field, trying to answer the foremost question about malware and underground
+economy, namely, "Should we care?".<br><br> Students will learn how traditional and mobile malware work, how they are analyzed and
+detected, peering through the underground ecosystem that drives this profitable
+but illegal business.
+
+Understanding how malware operates is of paramount importance to form knowledgeable experts, teachers, researchers, and practitioners able to fight back.  Besides, it allows us to gather intimate knowledge of the systems and the threats, which is a necessary step to successfully devise novel, effective, and practical mitigation techniques.","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/90/214ce37265a397e3cb97fd25e658de/cavallaro-logo.png","Short_des":"Learn about traditional and mobile malware, the security threats they represent, state-of-the-art analysis and detection techniques, and the underground ecosystem that drives such a profitable but illegal business.","AuthorList":[{"author":"Lorenzo Cavallaro"}]}

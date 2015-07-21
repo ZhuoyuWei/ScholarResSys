@@ -1,0 +1,27 @@
+{"ItemName":"Beginning Game Programming with C#","Major":"Computer Science: Software Engineering ","LinkUrl":"https://www.coursera.org/course/gameprogramming","Content":"<p>The Beginning Game
+Programming with C# course is all about learning how to develop video games
+using the C# programming language. Why use C# instead of C++, Java,
+ActionScript, or some other programming language you may have heard of? First,
+using C# lets us use the Microsoft XNA and open-source MonoGame frameworks,
+which help us quickly develop games for Windows, Android, iOS, Mac OS, and
+others. Second, the Unity game engine is very popular with indie game
+developers, and C# is one of the programming languages you can use in the Unity
+environment. And finally, C# is a really good language for learning how to
+program.</p>
+
+
+
+<p>That learning how to program
+comment is important because this course doesn't assume you have any previous programming
+experience. Don't worry if you've never written code before; we'll start at the
+very beginning and work our way up to building a small, complete game by the
+end of the course. Throughout the course you'll learn core programming concepts
+that apply to lots of programming languages, including C#, and you'll also
+learn how to apply those concepts when you develop games: drawing all the
+entities in the game world, updating the game world based on user input and
+simple physics, playing music and sound effects in your games, and so on.</p>
+
+
+
+Computer programming is really fun in general,
+and programming games is even better!<br><br>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/f4/fc7a006d2bafe837b6de5016d8a423/Course-Logo.png","Short_des":"Start learning how to program video games using the C# programming language. Plenty of practice opportunities are included!","AuthorList":[{"author":"Tim "Dr. T" Chamillard"}]}

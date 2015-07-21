@@ -1,0 +1,12 @@
+{"ItemName":"Analyse Numérique pour Ingénieurs","Major":"Mathematics Statistics and Data Analysis ","LinkUrl":"https://www.coursera.org/course/analysenumerique","Content":"L'analyse numérique fait partie de ce que l'on appelle aujourd'hui "Scientific Computing" ou encore "Computational Sciences". Il s'agit de faire des simulations numériques de phénomènes complexes, par exemple l'écoulement autour d'un avion, le retrait passé ou futur d'un glacier, ou encore des effets spéciaux pour l'industrie du cinéma. <br><br>Le cheminement permettant d'obtenir une simulation numérique est le suivant.<br><span><br>
+
+<ul><li>Dérivation d'un modèle mathématique. Par exemple, dans le cas de la chute d'un corps, les équations de Newton "masse x accéleration = forces" permettent d'obtenir une équation différentielle, à laquelle il faut ajouter une condition initiale sur la position et sur la vitesse du corps.</li>
+<br>
+<li>Analyse mathématique : le modèle mathématique obtenu est-il bien posé ? Par exemple, l'existence d'une solution unique de l'équation différentielle demande que certaines conditions sur les forces soient satisfaites.<br></li>
+<br>
+<li>Analyse numérique : en général, la solution du modèle mathématique ne peut pas être obtenue de manière explicite. Il convient d'utiliser un algorithme permettant d'approcher la solution grâce à un ordinateur. Dans la mesure du possible on souhaite quantifier l'erreur entre la solution du modèle mathématique (que l'on ne connait pas) et son approximation numérique (que l'on va calculer sur un ordinateur). Pour le choix de l'algorithme, on tiendra compte du nombre d'opérations nécessaire au calcul de la solution approchée.</li>
+<br>
+<li>Implémentation sur ordinateur (programmation).</li>
+<br>
+<li>Tests, validation et comparaison avec l'expérience ou d'autres résultats numériques.<br></li></ul></span>","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/2f/90ee4f762c16572cb4473f3c505092/coursera.jpg","Short_des":"Ce cours contient les 7 premiers chapitres d'un cours donné aux étudiants bachelor de l'EPFL. Il est basé sur le livre "Introduction à l'analyse numérique", J. Rappaz M. Picasso, Ed. PPUR. Des outils de base sont décrits dans les 5 premiers chapitres. Les deux derniers chapitres abordent la question de la résolution numérique d'équations différentielles. 
+","AuthorList":[{"author":"Marco Picasso"}]}

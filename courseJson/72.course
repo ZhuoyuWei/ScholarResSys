@@ -1,0 +1,15 @@
+{"ItemName":"Fundamentals of Electrical Engineering Laboratory","Major":"Engineering ","LinkUrl":"https://www.coursera.org/course/eefunlab","Content":"This course represents a <i>real</i> hands-on laboratory course in introductory electronics. In it, you will learn how to use the instruments every electrical engineer needs to know: the oscilloscope, function generator and multi-meter. You will use
+these instruments running on your computer to measure voltages from circuits you will build from <b>actual</b> electrical components with measurement systems provided by National Instruments, Inc. Students will be required to purchase hardware, software
+and electrical parts.
+<br>
+<br>This laboratory uses the terminology and knowledge of electrical engineering provided in Coursera's <i><a href="https://www.coursera.org/course/eefun" target="_blank">Fundamentals of Electrical Engineering</a>.</i> You can take the laboratory simultaneously
+with this course or afterwards. Once you learn the basics found in the laboratory course, you will know how to interface electrical circuits to measurement systems, be they analog or digital. You will have the knowledge to build live circuits and get
+them to work. No simulations!!
+<br>
+<br>
+<br>This lab would not be possible without the strong involvement of our industrial partners. National Instruments makes the myDAQ interface equipment as well as the LabView and ELVISMX software system that emulates measurement instruments. DigiKey Corporation
+gathered the diverse collection of electrical and electronics parts into a course-specific parts kit. Mathworks is supplying the Matlab software environment for this course without charge for the course's duration.
+<br>
+<img width="500" src="https://d396qusza40orc.cloudfront.net/eefunlab%2Fimages%2FLogos%2FCombined_Logo.png" title="Image: https://d396qusza40orc.cloudfront.net/eefunlab%2Fimages%2FLogos%2FCombined_Logo.png">
+<br><br>ORDERING YOUR KIT
+<br>Details are being worked out!","ImageUrl":"https://coursera-course-photos.s3.amazonaws.com/cd/94eac89b1fda9bbbc5912e662ca3d4/large-icon.png","Short_des":"This hands-on laboratory course complements Coursera's Fundamentals of Electrical Engineering. The course develops basic skills in constructing and measuring electrical circuits using modern laboratory instruments.","AuthorList":[{"author":"Don H. Johnson"}]}
